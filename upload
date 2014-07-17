@@ -1,0 +1,10 @@
+#! /bin/bash
+##released under creative commons license you can share and change it as per your need and redistribute it but with same license 
+#author : rohit shetty (rohitfoss00@gmail.com)
+#date:17/07/2014 
+##
+
+sudo avrdude -c usbasp -p m$1
+sudo avrdude -c usbasp -p m$1 -P USBasp -U flash:w:$2.hex
+
+

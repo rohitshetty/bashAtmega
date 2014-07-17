@@ -1,0 +1,13 @@
+#! /bin/bash
+##released under creative commons license you can share and change it as per your need and redistribute it but with same license 
+#author : rohit shetty (rohitfoss00@gmail.com)
+#date:17/07/2014 
+##
+
+####/read mclinux.txt along with this############
+avr-gcc -mmcu=atmega16 -Os $1.c -o $1.out
+
+avr-objcopy -j .text -j .data -O ihex $1.out $1.hex
+
+
+
