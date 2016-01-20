@@ -5,7 +5,7 @@ author : rohit shetty (rohitfoss00@gmail.com)
 date:22/06/2014 
 ]
 
-
+EDIT: This was before i learnt about makefiles. please use makefiles and not this, it makes life easy. 
 
 #sudo apt-get install avr-libc binutils-avr gcc-avr avrdude
 
