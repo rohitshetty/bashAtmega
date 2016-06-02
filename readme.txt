@@ -58,7 +58,7 @@ to upload
 
 this generates example.hex 
 
-if your microcontroller is 16 bit and filename is example.c 
+if your microcontroller is atmega16 and filename is example.c 
 then
 
 #./ upload 16 example
